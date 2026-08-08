@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21f3dea7-db47-4c82-a521-07237fbc2c74" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../student-activity/.claude/skills/karpathy-guidelines/SKILL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/apis/exam.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/apis/jiaofu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/apis/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/enums/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/request/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/request/type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/stores/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/stores/modules/useUserStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/utils/levelContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/404/no-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/Book/book-view.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/Book/components/chapterList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/Home/components/book-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/Home/home-view.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/Layout/layout-view.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/src/views/Login/login-view.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student-activity/uno.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/packages/message/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/packages/message/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/packages/message/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/components/I18n/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/hooks/useCommonStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/layouts/utils/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/menus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/menus/demo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/menus/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/menus/utils/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/request/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/request/type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/router/utils/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/router/utils/helper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/stores/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/stores/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/stores/public.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/stores/tabs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/stores/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/icons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/is.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/performance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/permissions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/utils/sentry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/views/Layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wenxue-test/src/views/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-app/src/pages/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-app/src/pages/Layout/layout-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-app/src/pages/Layout/layout-view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-app/src/request/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-app/src/request/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-app/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-app/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue3-vite/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue3-vite/src/App.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3HZJUtQ32wBusPbmN6iihlc1Nwn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.service [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ContractApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProject/fullstack-mall-test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\fullstack-mall-test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ContractApplication" value="STOPPED" />
+              <entry key="ServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fullstackmall.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="contract" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fullstackmall.contract.ContractApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fullstackmallservice.service.ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BackendApplication" />
+      <item itemvalue="Spring Boot.ContractApplication" />
+      <item itemvalue="Spring Boot.ServiceApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="21f3dea7-db47-4c82-a521-07237fbc2c74" name="更改" comment="" />
+      <created>1786069677029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786069677029</updated>
+      <workItem from="1786069678167" duration="1877000" />
+      <workItem from="1786071946513" duration="3753000" />
+      <workItem from="1786083573778" duration="9173000" />
+      <workItem from="1786152591318" duration="377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
