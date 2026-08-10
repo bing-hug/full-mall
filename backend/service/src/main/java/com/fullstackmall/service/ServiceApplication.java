@@ -1,4 +1,4 @@
-package com.fullstackmallservice.service;
+package com.fullstackmall.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
