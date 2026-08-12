@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: fullstack-mall-service
+
+server:
+  port: ${SERVER_PORT:8080}
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+
+security:
+  jwt:
+    # 不在公开仓库内置默认密钥；本地启动前请设置 JWT_SECRET。
+    secret: ${JWT_SECRET:fsdfljsdflsdjfkjdslf}
+    expiration-seconds: ${JWT_EXPIRATION_SECONDS:1800}
