@@ -36,5 +36,4 @@ public class AuthController {
         CurrentUserResponse data = authFacade.register(request);
         return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.success(data, TraceIdContext.get(servletRequest)));
     }
-
 }

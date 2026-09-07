@@ -2,6 +2,7 @@ package com.fullstackmall.service.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.fullstackmall.service.user.entity.UserEntity;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 用户表Mapper
@@ -9,5 +10,6 @@ import com.fullstackmall.service.user.entity.UserEntity;
  * <p>继承 BaseMapper后自动拥有 selectById、selectList、insert、updateById</p>
  */
 
+@Mapper
 public interface UserMapper extends BaseMapper<UserEntity> {
 }

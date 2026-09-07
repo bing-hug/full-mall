@@ -1,6 +1,7 @@
 package com.fullstackmall.service.common.trace;
 
 import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.core.Ordered;
@@ -9,7 +10,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
-import java.rmi.server.ServerCloneException;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
@@ -28,7 +28,7 @@ public class TraceIdFilter extends OncePerRequestFilter {
             HttpServletRequest request,
             HttpServletResponse response,
             FilterChain filterChain
-    ) throws ServerCloneException, IOException {
+    ) throws ServletException, IOException {
         String traceId = resolveTracedId(request.getHeader(TRACE_ID_HEADER));
         request.setAttribute(TRACE_ID_ATTRIBUTE, traceId);
         response.setHeader(TRACE_ID_HEADER, traceId);

@@ -1,6 +1,11 @@
 spring:
   application:
     name: fullstack-mall-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:fullstack_mall}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:root}
 
 server:
   port: ${SERVER_PORT:8080}
@@ -14,5 +19,6 @@ springdoc:
 security:
   jwt:
     # 不在公开仓库内置默认密钥；本地启动前请设置 JWT_SECRET。
-    secret: ${JWT_SECRET:fsdfljsdflsdjfkjdslf}
+    # 密钥为 Base64 编码，解码后须 >= 32 字节（HS256 要求）。默认值仅供本地开发占位。
+    secret: ${JWT_SECRET:bG9jYWwtZGV2LW9ubHktc2VjcmV0LWtleS0zMmJ5dGVzISE=}
     expiration-seconds: ${JWT_EXPIRATION_SECONDS:1800}

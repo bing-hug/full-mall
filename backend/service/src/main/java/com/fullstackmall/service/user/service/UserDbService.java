@@ -8,6 +8,7 @@ import com.fullstackmall.service.user.mapper.UserMapper;
 import com.fullstackmall.service.user.entity.UserEntity;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.security.core.userdetails.User;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.util.Optional;
@@ -17,6 +18,7 @@ import java.util.Optional;
  *
  * <p>这种继承 ServiceImpl 的写法与企业项目中常见的 dbbase Service 思路一致。</p>
  */
+@Service
 public class UserDbService extends ServiceImpl<UserMapper, UserEntity> {
     public Optional<UserEntity> findByUsername(String username) {
         return Optional.ofNullable(getOne(
