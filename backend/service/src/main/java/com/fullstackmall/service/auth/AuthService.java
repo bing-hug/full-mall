@@ -1,14 +1,14 @@
 package com.fullstackmall.service.auth;
 
-import com.fullstackmall.contract.auth.CurrentUserResponse;
-import com.fullstackmall.contract.auth.RegisterRequest;
-import com.fullstackmall.contract.auth.UserRole;
+import com.fullstackmall.contract.auth.*;
 import com.fullstackmall.contract.common.ApiCode;
 import com.fullstackmall.service.common.excetion.BusinessException;
 import com.fullstackmall.service.user.entity.UserEntity;
 import com.fullstackmall.service.user.service.UserDbService;
 import jakarta.annotation.Resource;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.dao.DuplicateKeyException;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -51,6 +51,34 @@ public class AuthService {
             throw new BusinessException(ApiCode.USERNAME_ALREADY_EXISTS, ApiCode.USERNAME_ALREADY_EXISTS.defaultMessage());
         }
         return toResponse(user);
+    }
+
+    public AuthTokenResponse login(LoginRequest request) {
+        System.out.println(request);
+        if (StringUtils.isBlank(request.getUsername()) || StringUtils.isBlank(request.getPassword())) {
+            throw new BusinessException(ApiCode.INVALID_CREDENTIALS, ApiCode.INVALID_CREDENTIALS.defaultMessage());
+        }
+
+        String username =  normalizeUsername(request.getUsername());
+        UserEntity user = userDbService.findByUsername(username).orElseThrow(() -> new BusinessException(ApiCode.INVALID_CREDENTIALS, ApiCode.INVALID_CREDENTIALS.defaultMessage()));
+
+        // 密码
+        if(!passwordEncoder.matches(request.getPassword(), user.getPasswordHash())) {
+            throw new BusinessException(ApiCode.INVALID_CREDENTIALS, ApiCode.INVALID_CREDENTIALS.defaultMessage());
+        }
+
+        // 状态
+        if (!user.getStatus().equals(USER_ENABLED)) {
+            throw new BusinessException(ApiCode.ACCOUNT_DISABLED, ApiCode.ACCOUNT_DISABLED.defaultMessage());
+        }
+
+        AccessToken token = jwtTokenService.createAccessToken(user);
+        return new AuthTokenResponse(
+                token.getValue(),
+                "Bearer",
+                token.getExpiresInSeconds(),
+                toResponse(user)
+        );
     }
 
     private CurrentUserResponse toResponse(UserEntity user) {

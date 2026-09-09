@@ -7,6 +7,7 @@ public interface IAuthFacade {
      * @return 注册成功后安全用户信息
      */
     CurrentUserResponse register(RegisterRequest request);
+    AuthTokenResponse login(LoginRequest request);
 }
 
 

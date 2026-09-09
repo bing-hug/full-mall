@@ -1,8 +1,6 @@
 package com.fullstackmall.service.auth;
 
-import com.fullstackmall.contract.auth.CurrentUserResponse;
-import com.fullstackmall.contract.auth.IAuthFacade;
-import com.fullstackmall.contract.auth.RegisterRequest;
+import com.fullstackmall.contract.auth.*;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
@@ -14,5 +12,10 @@ public class AuthFacade implements IAuthFacade {
     @Override
     public CurrentUserResponse register(RegisterRequest request) {
         return authService.register(request);
+    }
+
+    @Override
+    public AuthTokenResponse login(LoginRequest request) {
+        return authService.login(request);
     }
 }
