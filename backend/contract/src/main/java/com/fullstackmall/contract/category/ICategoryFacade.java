@@ -1,0 +1,20 @@
+package com.fullstackmall.contract.category;
+
+import java.util.List;
+
+public interface ICategoryFacade {
+    /**
+     * 校验并规范分类草稿，但不保存到数据库
+     *
+     * @param request 分类草稿
+     * @return 规范化结果
+     */
+    CategoryDraftResponse validateDraft(CategoryDraftRequest request);
+
+    /**
+     * 按后台展示顺序列出全部分类，包括停用分类
+     *
+     * @return 分类摘要列表
+     */
+    List<CategorySummaryResponse> listAdminCategories();
+}
