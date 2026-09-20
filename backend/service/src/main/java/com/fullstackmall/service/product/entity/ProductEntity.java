@@ -21,6 +21,8 @@ public class ProductEntity {
 
     private String subtitle;
 
+    private String description;
+
     @TableField("status_code")
     private String statusCode;
 
